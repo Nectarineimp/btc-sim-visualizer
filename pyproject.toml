@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "btc-sim-visualizer"
+version = "0.1.0"
+description = "Multi-Model Forecast Visualizer with Additive RGB Blending for Bitcoin Simulations"
+authors = ["Peter Mancini <krahang@pm.me>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26"
+pandas = "^2.2"
+matplotlib = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
