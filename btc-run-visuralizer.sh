@@ -2,7 +2,7 @@
 
 cd ~/projects/btc-data-hub
 echo "Building actuals..."
-src/build_actuals.sh
+poetry run python src/build_actuals.py
 
 cd ~/projects/btc-sim-visualizer/
 
