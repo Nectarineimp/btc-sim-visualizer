@@ -29,4 +29,10 @@ poetry run python src/visualizer.py \
   --actuals data/actuals.csv \
   --output "output/tailwhip_${DATE}.png"
 
+# 4. TrueTetherChamberlain Solo Render with Actuals
+poetry run python src/visualizer.py \
+  ~/projects/btc-sim-truetetherchamperlain/output/monthly_forecast.csv \
+  --actuals data/actuals.csv \
+  --output "output/truetether_${DATE}.png"
+
 echo "Visualizations completed."
