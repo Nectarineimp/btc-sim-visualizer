@@ -35,4 +35,10 @@ poetry run python src/visualizer.py \
   --actuals data/actuals.csv \
   --output "output/chamberlain_${DATE}.png"
 
+# 5. Gatekeeper Solo Render with Actuals
+poetry run python src/visualizer.py \
+  ~/projects/btc-sim-gatekeeper/output/monthly_forecast.csv \
+  --actuals data/actuals.csv \
+  --output "output/gatekeeper_${DATE}.png"
+
 echo "Visualizations completed."
