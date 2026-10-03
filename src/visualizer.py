@@ -29,6 +29,18 @@ MODEL_PRESETS = {
         "edge_color": "#33cc66",
         "desc": "Merton Jump-Diffusion SDE",
     },
+    "chamberlain": {
+        "name": "Chamberlain",
+        "color": (0.85, 0.65, 0.13),   # Goldenrod
+        "edge_color": "#ffcc33",
+        "desc": "Coupled Heston SDE + Power-Law Drift",
+    },
+    "gatekeeper": {
+        "name": "GateKeeper",
+        "color": (0.60, 0.40, 0.80),   # Purple
+        "edge_color": "#b366ff",
+        "desc": "Coupled Macro-Liquidity Gated SDE with 8-Month Institutional Rebalancing",
+    }
 }
 
 
