@@ -41,4 +41,10 @@ poetry run python src/visualizer.py \
   --actuals data/actuals.csv \
   --output "output/gatekeeper_${DATE}.png"
 
+# 6. EchoPhase 
+poetry run python src/visualizer.py \
+  ~/projects/btc-sim-echophase/output/monthly_forecast.csv \
+  --actuals data/actuals.csv \
+  --output "output/gatekeeper_${DATE}.png"
+
 echo "Visualizations completed."

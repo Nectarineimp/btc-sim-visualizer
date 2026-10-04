@@ -40,6 +40,12 @@ MODEL_PRESETS = {
         "color": (0.60, 0.40, 0.80),   # Purple
         "edge_color": "#b366ff",
         "desc": "Coupled Macro-Liquidity Gated SDE with 8-Month Institutional Rebalancing",
+    },
+    "echophase": {
+        "name": "EchoPhase",
+        "color": (0.95, 0.75, 0.25),   # Amber
+        "edge_color": "#ffb84d",
+        "desc": "Harmonic-Weighted Empirical Block Bootstrap (Era 4)",
     }
 }
 
