@@ -95,4 +95,13 @@ if should_run "echophase"; then
     --output "output/echophase_${DATE}.png"
 fi
 
+# 7. WhiteLightning Solo Render with Actuals
+if should_run "whitelightning"; then
+  echo "Rendering WhiteLightning..."
+  poetry run python src/visualizer.py \
+    ~/projects/btc-sim-whitelightning/output/monthly_forecast.csv \
+    --actuals data/actuals.csv \
+    --output "output/whitelightning_${DATE}.png"
+fi
+
 echo "Visualizations completed."
