@@ -69,7 +69,7 @@ def identify_model(file_path: str, index: int):
 
 def load_dataset(file_path: str):
     df = pd.read_csv(file_path)
-    df["Month_Date"] = pd.to_datetime(df["Month"])
+    df["Month_Date"] = pd.to_datetime(df["Month"], format="%Y-%m")
     df = df.sort_values("Month_Date").reset_index(drop=True)
     return df
 
