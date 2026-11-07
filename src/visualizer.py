@@ -19,38 +19,38 @@ MODEL_PRESETS = {
     },
     "truetether": {
         "name": "TrueTether",
-        "color": (0.95, 0.28, 0.28),   # Coral / Crimson
-        "edge_color": "#ff4d4d",
+        "color": (0.06, 0.73, 0.51),   # Emerald Green (#10b981)
+        "edge_color": "#10b981",
         "desc": "OU Mean-Reversion + Power-Law Drift",
     },
     "regimeecho": {
         "name": "RegimeEcho",
-        "color": (0.25, 0.55, 0.95),   # Royal Blue
-        "edge_color": "#4da6ff",
+        "color": (0.22, 0.74, 0.97),   # Sky Blue (#38bdf8)
+        "edge_color": "#38bdf8",
         "desc": "Era 4 Moving Block Bootstrap",
     },
     "tailwhip": {
         "name": "TailWhip",
-        "color": (0.20, 0.85, 0.45),   # Emerald / Mint
-        "edge_color": "#33cc66",
+        "color": (0.93, 0.28, 0.60),   # Hot Pink (#ec4899)
+        "edge_color": "#ec4899",
         "desc": "Merton Jump-Diffusion SDE",
     },
     "chamberlain": {
         "name": "Chamberlain",
-        "color": (0.85, 0.65, 0.13),   # Goldenrod
-        "edge_color": "#ffcc33",
+        "color": (0.55, 0.36, 0.96),   # Electric Indigo (#8b5cf6)
+        "edge_color": "#8b5cf6",
         "desc": "Coupled Heston SDE + Power-Law Drift",
     },
     "gatekeeper": {
         "name": "GateKeeper",
-        "color": (0.60, 0.40, 0.80),   # Purple
-        "edge_color": "#b366ff",
+        "color": (0.94, 0.27, 0.27),   # Crimson Red (#ef4444)
+        "edge_color": "#ef4444",
         "desc": "Coupled Macro-Liquidity Gated SDE with 8-Month Institutional Rebalancing",
     },
     "echophase": {
         "name": "EchoPhase",
-        "color": (0.95, 0.75, 0.25),   # Amber
-        "edge_color": "#ffb84d",
+        "color": (0.98, 0.75, 0.14),   # Vivid Gold / Amber (#fbbf24)
+        "edge_color": "#fbbf24",
         "desc": "Harmonic-Weighted Empirical Block Bootstrap (Era 4)",
     },
 }
